@@ -1,0 +1,2 @@
+const CONTRACT_ADDRESS = "0x7015C8835DC7aB410c6C5bD265e039E88B3AaeF1";
+const ABI = [/* 这里填入你的 ABI 数据 */];

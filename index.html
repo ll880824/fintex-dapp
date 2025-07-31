@@ -1,24 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FINTEX DApp</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FINTEX DApp</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="container">
-        <h1>FINTEX (FTE) DApp</h1>
-        <button onclick="connectWallet()">连接钱包</button>
-        <button onclick="claimAirdrop()">领取空投</button>
-        <button onclick="withdrawTokens()">提币</button>
-        <button onclick="burnTokens()">销毁代币</button>
-        <button onclick="mine()">开始挖矿</button>
-        <button onclick="register()">注册送币</button>
-        <button onclick="recharge()">充值USDT送代币</button>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-    <script src="js/app.js"></script>
+  <h1>FINTEX (FTE) DApp 控制台</h1>
+  <div id="wallet-address">未连接钱包</div>
+  <button onclick="connectWallet()">连接钱包</button>
+  <button onclick="register()">注册领币</button>
+  <button onclick="claimAirdrop()">空投领取</button>
+  <button onclick="mine()">领取挖矿代币</button>
+  <button onclick="withdraw()">提币</button>
+  <button onclick="rechargeAndReward()">充值 USDT 送代币</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
